@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+nav {
+    position: fixed;
+    height: 20px;
+    background-color: mediumspringgreen;
+    float: right;
+    right: 0;
+    font-family: Chiller, serif;
+}
+
+.navWrapper{
+    position: fixed;
+    top: 40px;
+    right: 0;
+    height: 200px;
+    width: 100px;
+    background-color: mediumspringgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    color: steelblue;
+    margin: 0 8px;
+    text-decoration: none;
+}
+
+.section{
+    height: 100%;
+    background-color: lightslategray;
+}
+
+
+.dropDownMenu{
+    font-size: 20px;
+    color: mediumspringgreen;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+}
+
+.toggle{
+    display: none;
+}
+
+h1 {
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    color: mediumspringgreen;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 1px;
+}
+
+.homeStyle { font-size: 20px;
+        color: mediumspringgreen;
+        position: relative;
+        justify-content: center;
+}
+
+.about{
+    font-family: Broadway, serif;
+}
+.home{
+    font-family: SimSun, serif;
+}
+.contact{
+    font-family: Forte, serif;
+}
+
+.aboutStyle { font-size: 20px;
+    color: mediumspringgreen;
+    position: relative;
+    justify-content: center;
+}
+
+.contactStyle { font-size: 20px;
+    color: mediumspringgreen;
+    position: relative;
+    justify-content: center;
+}
+
+
+
+
+
+@media screen and (min-width: 600px) {
+    .dropDownMenu{
+        display: none;
+    }
+    .navWrapper{
+        height: 100%;
+        position: relative;
+        width: 100%;
+        background-color: transparent;
+        flex-direction: row;
+        top: 0;
+    }
+
+}
+
